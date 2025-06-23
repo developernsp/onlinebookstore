@@ -7,5 +7,12 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+	    stage("crone_job") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+	
         }
 }
